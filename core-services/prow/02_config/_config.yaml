@@ -24,6 +24,15 @@ deck:
       - AlexNPavel
       - jupierce
       - petr-muller
+  - repo: Azure/ARO-HCP
+    rerun_auth_configs:
+      github_team_slugs:
+      - org: openshift
+        slug: test-platform
+      github_users:
+      - geoberle
+      - janboll
+      - raelga
   - repo: openshift/multiarch-tuning-operator
     rerun_auth_configs:
       github_team_slugs:
